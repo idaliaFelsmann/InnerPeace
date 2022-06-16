@@ -55,6 +55,15 @@ p {
   font-size: 20px;
 }
 
+.btn {
+  display: inline-block;
+  vertical-align: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .btn-learn-more {
   color: var(--complementary-color);
+  border: 2px solid var(--complementary-color);
+  font-size: 17px;
 }
