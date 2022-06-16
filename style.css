@@ -1,6 +1,7 @@
 :root {
   --main-color: #f1def5;
   --complementary-color: #da98e7;
+  --third-color: #91599c;
   --first-gray: rgba(75, 75, 75, 0.929);
   --second-gray: rgb(102, 102, 102);
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -66,4 +67,16 @@ p {
   color: var(--complementary-color);
   border: 2px solid var(--complementary-color);
   font-size: 17px;
+}
+
+.section-one {
+  text-align: center;
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 25px;
+  color: var(--third-color);
+  line-height: 3;
 }
