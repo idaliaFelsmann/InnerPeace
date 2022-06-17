@@ -127,17 +127,21 @@ blockquote:before {
 }
 
 .quote-wraper {
-  margin-left: 35px;
-  margin-right: 35px;
+  margin: 50px 35px;
 }
 
 .testimony {
   background-color: var(--main-color);
-  padding: 60px 40px;
+  padding: 80px 40px;
 }
 
 .testimony img {
   border-radius: 100px;
   display: block;
   margin: auto;
+}
+
+#left-testimony {
+  border: 1px solid white;
+  padding: 25px 18px 5px;
 }
